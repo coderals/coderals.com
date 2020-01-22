@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Box, Tabs, Tab } from '@material-ui/core';
+import { Box, Tabs, Tab } from '@material-ui/core';
 import Apps from './Apps';
 import Policy from './Policy';
 

@@ -11,6 +11,7 @@ export default class Policy extends React.Component {
     let textValue5 = "We don’t share any personally identifying information publicly or with third-parties, except when required to by law.";
     let textValue6 = "Your continued use of our apps and website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.";
     let textValue7 = "This policy is effective as of 31 December 2020.";
+    let textValue8 = "- Coderals";
     return (
         <Box color="#263238" width={2/5} align="left">
           <Box paddingTop="2%">{textValue1}</Box>
@@ -20,6 +21,7 @@ export default class Policy extends React.Component {
           <Box paddingTop="2%">{textValue5}</Box>
           <Box paddingTop="2%">{textValue6}</Box>
           <Box paddingTop="2%">{textValue7}</Box>
+          <Box paddingTop="5%">{textValue8}</Box>
         </Box>
     );
   }

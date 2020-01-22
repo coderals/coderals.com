@@ -39,7 +39,7 @@ export default class Apps extends React.Component {
               <IconButton aria-label="googlePlay">
                 <Shop/>
               </IconButton>
-              <IconButton aria-label="gitHub">
+              <IconButton aria-label="gitHub" href="https://github.com/coderals/keyholder/">
                 <GitHub/>
               </IconButton>
             </Card>

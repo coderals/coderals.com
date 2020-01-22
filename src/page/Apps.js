@@ -45,42 +45,6 @@ export default class Apps extends React.Component {
             </Card>
           </Box>
         </Box>
-          <Box paddingTop="5%" display="flex" flexDirection="row" justifyContent="space-between">
-            <Box width={2/5}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  image={scrumate}
-                />
-                <IconButton aria-label="appStore">
-                  <Apple/>
-                </IconButton>
-                <IconButton aria-label="googlePlay">
-                  <Shop/>
-                </IconButton>
-                <IconButton aria-label="gitHub">
-                  <GitHub/>
-                </IconButton>
-              </Card>
-            </Box>
-            <Box width={2/5}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  image={keyholder}
-                />
-                <IconButton aria-label="appStore">
-                  <Apple/>
-                </IconButton>
-                <IconButton aria-label="googlePlay">
-                  <Shop/>
-                </IconButton>
-                <IconButton aria-label="gitHub">
-                  <GitHub/>
-                </IconButton>
-              </Card>
-            </Box>
-          </Box>
       </Box>
     );
   }

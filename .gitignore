@@ -1,3 +1,2 @@
+/node_modules/
 /.idea/
-/node_modules/.cache/babel-loader/
-/node_modules/.cache/eslint-loader/
